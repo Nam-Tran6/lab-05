@@ -13,5 +13,20 @@ description: layout for lab05
 */
 
 aside:hover {
-    display:block
+    display:block /* Negates the display:hidden in lab04*/
+}
+
+/* I really ought to change the lab04 to lab05 but the instructions say otherwise ¯\_(ツ)_/¯*/
+
+.menu {
+    display: inline-block; /* Uses inline outline to horizontally make blocks (pls allow me to use flexbox)*/
+}
+
+aside {
+    border: 4px inset purple; /* 4 pixel purple border with shading enabled*/
+    border-radius: 14 px; /* rounds off the rectangle*/
+    margin: 1em; /* outside of box*/
+    padding: 1em; /* inside of box*/
+    background: url(images/fade.jpg) repeat-x left left; /* adds fade image on top left from top left 
+    replicating horizontally*/
 }
