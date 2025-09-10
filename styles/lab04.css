@@ -1,10 +1,10 @@
 /*
 
-filename: lab05
+filename: lab04
 
 author: Kha Nam Tran
 
-created: 10/09/2025
+created: 28/08/2025
 
 last modified: 11/09/2025
 
@@ -76,4 +76,8 @@ nav a:hover { /*Tansistion when hovered over*/
     background-color: lightblue;
     border: darkblue;
     transition: color 0.5s;
+}
+
+aside:hover {
+    display: none;
 }
