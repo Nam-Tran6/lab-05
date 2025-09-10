@@ -30,3 +30,15 @@ aside {
     background: url(images/fade.jpg) repeat-x left left; /* adds fade image on top left from top left 
     replicating horizontally*/
 }
+
+header {
+    border: 1px solid black;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgrey;
+    text-align: center; /* border on header*/
+}
+
+footer {
+    border-top: 4px double green; /* line break on footer*/
+}
