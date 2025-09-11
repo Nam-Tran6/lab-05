@@ -18,20 +18,20 @@ dl {
 }
   
 dt {
-  clear: left;
-	float: left;
-  width: 40%;
-	text-align: right;
-  font-weight: bold;
-  color: green; /* dt data is aligned right and bolded*/
-  }
+  clear: left; /* any element left should not appear*/
+	float: left; /* aligns dt the left*/ 
+  width: 40%; /* width is 40%*/
+	text-align: right; /* aligns text to the right*/
+  font-weight: bold; /* makes font bold*/
+  color: green; /* adds colour*/
+}
   
 dt::after {
   content: " :"; /*adds a : after dt*/
 }
 
 dd {
-  width: 55%;
-	margin-left: 42%; /* dd has a width of 55% and margin-left of 42%*/
+  width: 55%; /*takes 55% of the total width*/
+	margin-left: 42%; /*push description next to terms*/
 }
 
