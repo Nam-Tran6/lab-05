@@ -49,40 +49,58 @@ footer {
 
 
 #lists {
-    float: left;
+    float: left; /* all id=lists aligns left*/
 }
 
 table {
-    margin: auto;
+    margin: auto; /* aligns to the center when horizontally moving*/
 }
 
 #tables {
     float: right;
-    margin: auto;
+    margin: auto; /* aligns to the right when horizontally moving*/
 }
 
 #hyperlinks {
     clear:left;
-    float:left;
+    float:left; /* id=hyperlinks moves left*/
 }
 
 #images {
-    float:right;
+    float:right; /*alrigns right*/
 }
 
 figure {
-    border: 2px solid #ccc;
+    border: 2px solid #ccc; /* adds border to figure*/
 }
 
 #lists, #images, #tables, #hyperlinks {
     width: 50%;
-    text-align:center;
+    text-align:center; /* assigns width to 50% and aligns center*/
 }
 
 ol, ul, dl {
-    text-align: left;
+    text-align: left; /* aligns order list, unorder list, and data list to align left*/
 }
 
 article {
     min-width: 30em; /* minimum width to perserve legibility*/
+}
+
+footer p {
+    display:inline-block;
+    width: 33% /* sets width to 33% and makes all p's horizontal*/
+}
+
+footer p:first-child {
+    float:left; /* sets first child to float left*/
+}
+
+footer p:nth-child(2) {
+    text-align: center /* sets second p to float middle*/
+}
+
+footer p:last-child {
+    float:right;
+    text-align:right; /* floats right and text-align right*/
 }
