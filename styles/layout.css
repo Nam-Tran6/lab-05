@@ -24,11 +24,14 @@ aside:hover {
 
 aside {
     border: 4px inset purple; /* 4 pixel purple border with shading enabled*/
-    border-radius: 14 px; /* rounds off the rectangle*/
+    border-radius: 14px; /* rounds off the rectangle*/
     margin: 1em; /* outside of box*/
     padding: 1em; /* inside of box*/
+    width: 30%; /* changes the aside shrinks and expands*/
     background: url(images/fade.jpg) repeat-x left left; /* adds fade image on top left from top left 
     replicating horizontally*/
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 header {
@@ -41,4 +44,45 @@ header {
 
 footer {
     border-top: 4px double green; /* line break on footer*/
+    clear:both;
+}
+
+
+#lists {
+    float: left;
+}
+
+table {
+    margin: auto;
+}
+
+#tables {
+    float: right;
+    margin: auto;
+}
+
+#hyperlinks {
+    clear:left;
+    float:left;
+}
+
+#images {
+    float:right;
+}
+
+figure {
+    border: 2px solid #ccc;
+}
+
+#lists, #images, #tables, #hyperlinks {
+    width: 50%;
+    text-align:center;
+}
+
+ol, ul, dl {
+    text-align: left;
+}
+
+article {
+    min-width: 30em; /* minimum width to perserve legibility*/
 }
