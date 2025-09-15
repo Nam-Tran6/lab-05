@@ -28,7 +28,7 @@ aside {
     margin: 1em; /* outside of box*/
     padding: 1em; /* inside of box*/
     width: 30%; /* changes the aside shrinks and expands*/
-    background: url(images/fade.jpg) repeat-x left; /* adds fade image on top left from top left 
+    background: url(images/fade.jpg) repeat-x top left; /* adds fade image on top left from top left 
     replicating horizontally*/
     float: right;
     box-shadow: 10px 10px 5px #aaaaaa;
